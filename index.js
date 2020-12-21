@@ -118,7 +118,7 @@ console.log(me === enemy); // false
 
 const month = prompt('Введите месяц')
 let result = ''
-if (+month.isNaN()) {
+if (isNaN(month)) {
     switch (month) {
         case 'January':
             result = 1
